@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title%></title>
+    <link rel="stylesheet" href="main.css"
+    
+    <%- include ('partials/head.html') %>
+    <style>
+        body{
+            font-family:'Spicy Rice', cursive
+        }
+    </style>
+
+</head>
+
+<body>
+
+<%- include ('partials/navigation.html') %>
+
+<!--PARTE LATERAL-->
+
+<div id="sidebar">
+    <div class="toggle-btn">
+        <span>&#9776;</span>
+    </div>
+        <li>
+            <img src="img/0.jpg" alt="Logotipo" class="logo">
+        </li>
+        <ul class="latBar">
+        <li class="nav-item">
+            <a class="nav-link" href="/viento">Viento</a><i class="fas fa-wind"></i>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/cuerda">Cuerda</a><i class="fas fa-guitar"></i>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/percusion">Percusión</a><i class="fas fa-drum"></i>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/electricos">Instrumentos eléctricos</a><i class="fas fa-plug"></i>
+        </li>
+    </ul>
+</div>
+
+<!--CENTRAL-->
+
+<div class="central">
+        <h1>BANDA DESTACADA DEL OESTE</h1>
+        <h1 class="tituloBanda">LOS CABALLEROS DE LA QUEMA</h1>
+    <img src="img/caballeros.png" class="logoBanda">
+    <h2>COMIENZOS</h2>
+    <p>Se formaron en 1989 en Morón. Tres de los miembros de una banda de rock sinfónico llamada El Aleph (todos exalumnos del colegio Dorrego, de Morón), fueron el embrión de lo que tiempo después serían Los Caballeros de la Quema. Las tres primeras canciones que ensayaron con esa primitiva formación son bocetos que terminarían en «Tibia peste», «Carlitos» y «Buenos Aires esquina Vietnam». Adoptaron el nombre Caballeros de la Quema, cuando hojeando revistas en una de ellas encontraron una nota al humorista Pepe Marrone, donde contaba que su primera troupe de circo se había llamado Los Caballeros de la Quema.</p>
+    <p>En aquel tiempo pasan por diferentes cambios de formación, que incluyen el paso de Iván Noble a la voz, dejando la batería. Habían probado cantantes, incluso femeninas, hasta que Iván, quien escribía la mayoría de las letras, pasó a cantar. Martín Méndez e Iván todavía eran estudiantes de Sociología en la Universidad de Buenos Aires, ya se había incorporado Javier Cavo en la batería y Pablo Guerra se sumaba luego de haber fundado Los Piojos.</p>
+    <p>En 1991 editan en forma independiente su primera producción en casete titulada Primavera negra.</p>
+    <h2>MANOS VACÍAS</h2>
+    <p>En 1993 el sello Iguana Records (BMG) editó su primer CD titulado Manos vacías. De allí saldrían clásicos como «Patri», «Carlito» (con video de Picky Tallarico), «Gusanos» y «Buenos Aires esquina Vietman», entre otros. Fueron invitados por Joaquín Sabina a abrir su show en el estadio de Ferro ante más de 15 mil espectadores. Realizan shows en Rosario, Santa Fe y Córdoba, además de Buenos Aires y Capital federal durante ese año. Las encuestas de fin de año los encontraron en los primeros lugares como banda Revelación.</p>
+    <h2>SANGRANDO</h2>
+    <p>En 1994 hicieron la música del filme Labios de churrasco de Raúl Perrone y ese año editaron su segunda placa titulada Sangrando, con cortes como «Pejerrey» (video realizado por Andrés Fogwil), «Faisán», «Casi nadie» y «Sangrándonos». Fueron parte de la Gira Nuevo Rock Argentino de ese año que los llevó por Córdoba, Mendoza y Santa Fe como Los Brujos, Illya Kuryaki and the Valderramas, Babasónicos, Peligrosos Gorriones y 2 Minutos, entre otros. Fueron invitados a abrir el cierre de la gira mundial de Aerosmith en Córdoba y Buenos Aires, para más de 50 mil personas. En 1995 abrieron los shows de The Cult y Slash's Snakepit en el estadio Obras Sanitarias de Buenos Aires. Participaron de los compilados Fuck You que reunía versiones de la mítica banda argentina Sumo, recreando el clásico Hola Frank.</p>
+    <h2>PERROS, PERROS Y PERROS</h2>
+    <img src="img/caballeros1.jpg" class="fotoBanda">
+    <p>En 1996 editaron su tercera placa titulada Perros, perros y perros con temas como «No chamuyes», «Celofán», «Hasta estallar» (con la participación de León Gieco), «Que pasa en el barrio», «Cuatro copas» y «No hay», entre otros. Además, el álbum contiene el clásico de la banda Luces de bar en su versión completa. El primer corte «No chamuyes», fue acompañado por un video realizado por Raúl Perrone que consiguió la más alta rotación en los canales musicales de cable como MTV Latino y MuchMusic, además de rankear el tema entre los primeros puestos de FM Rock & Pop y Radio City (#1 durante dos semanas). Tras colmar la capacidad del lugar en la presentación oficial del álbum en Dr. Jekyll, compartieron escenario en festivales multitudinarios con Attaque 77, A.N.I.M.A.L., Massacre y Las Pelotas. Participaron del Festival Alternativo en el estadio de Ferro ante más de 20 000 personas compartiendo escenario con Marilyn Manson, Illya Kuryaki and the Valderramas, Los Fabulosos Cadillacs, entre otros.</p>
+    <p>A comienzo de 1998 se encierran en la sala de ensayo para trabajar en el nuevo disco, no saliendo de gira por la costa atlántica por primera vez en su carrera. En este proceso participa Afo Verde, colaborando con la preproducción y los arreglos. En enero participan del ciclo Buenos Aires Vivo al Aire Libre junto a Las Pelotas, convocando más de 60 000 personas. En marzo de 1998 tocan en Cemento convocando casi 2000 personas para el show despedida de Perros, perros y perros, el último en Buenos Aires antes de su partida a Los Ángeles, donde en abril grabaron su cuarto álbum con producción de Gustavo Borner y donde además realizaron algunas presentaciones. El 24 de mayo de 1998 se presentaron en la segunda edición del Festival Ni un Paso Atrás en la ciudad de Rosario a beneficio de las Madres de Plaza de Mayo, junto a León Gieco, La Renga, Molotov, Todos Tus Muertos y Los Fabulosos Cadillacs.</p>
+    <h2>LA PACIENCIA DE LA ARAÑA</h2>
+    <p>Con el disco ya terminado, Los Caballeros regresaron a los escenarios porteños el primer sábado de junio para convocar más de 2500 personas en una verdadera fiesta de reencuentro con su público. El nuevo trabajo titulado La paciencia de la araña llegó a las bateas a fines de julio, precedido por el primer corte «Rajá, rata» (#1 en FM Rock & Pop). El segundo corte, «Malvenido», fue acompañado de un video con máxima rotación en los canales de cable (#2 en MTV)[cita requerida]. En julio se presentan con singular éxito en Rosario y a principios de agosto en Ramos Mejía. En septiembre presentaron oficialmente la placa con un sensacional show en el Microestadio de Parque Sarmiento ante más de 5000 personas, con invitados como Lito Vitale y Ricardo Mollo. Coincidiendo con la salida de «Oxidado» como tercer corte, a fines de octubre comenzaron una gira que los llevó por La Plata, Bahía Blanca, Mar del Plata y Ramos Mejía.</p>
+    <p>En enero de 2000 comenzaron la preproducción de su quinto álbum de estudio, sucesor del doble platino, 120 000 copias, La paciencia de la araña, en los estudios Del Cielito ubicados en Castelar (provincia de Buenos Aires), contando nuevamente con la presencia de Afo Verde, productor artístico del mismo. En el mes de febrero de 2000 realizan una minigira por la costa atlántica, Mar del Plata, Villa Gesell y Pinamar en multitudinarios shows gratuitos y al aire libre. A principio del mes de abril de 2000, Los Caballeros viajaron a la ciudad de Los Ángeles (Estados Unidos) para grabar, mezclar y masterizar su nuevo disco, Fulanos de nadie, bajo la dirección artística de Afo Verde, con Gustavo Borner en los controles. El nuevo álbum cuenta con la destacada participación de Pedro Aznar en los arreglos corales, Néstor Marconi en bandoneón, Harry Kim en trompeta, Art Velazco en trombón, Luis Conte en percusión, Portia Griffin y Jessica Williams en coros, John Acosta en violonchelo, Darrin McCam en viola y Novi Novog en viola en «Otro jueves cobarde» (compuesto por Iván Noble y Joaquín Sabina).</p>
+    <h2>FULANOS DE NADIE</h2>
+    <img src="img/caballeros2.jpg" class="fotoBanda2">
+    <p>El disco, Fulanos de nadie ve la luz en la tercera semana de agosto de 2000, siendo el funk «Rómulo y Remo» el primer corte del disco. La salida es acompañada del video del mismo, filmado en 16 mm por la productora Negro Films. En el video participan, entre otros León Gieco, Cacho Castaña, Fabián Gianola y Anabel Cherubito.</p>
+    <p>La presentación oficial de Fulanos de nadie, el 7 de octubre de 2000 en el Estadio Obras, Capital Federal, fue el reencuentro de Caballeros con su público porteño. Público que colmó, como el año anterior, las instalaciones del estadio de la avenida Libertador. Los músicos salieron a escena enfundados en trajes, como en la tapa del disco. En esta oportunidad, se sumaron músicos como, Fabián Veglio en trompeta, Pablo Fortuna en saxo alto, Marcelo Garófalo en saxo tenor, Daniel Buira en percusión, Carlos Corrales en bandoneón, Celsa Mel Gowland, Lorena Álvarez y Constanza Manigot en coros y Mora Godoy junto a Juan Manuel, bailando tango en Fulanos de nadie.</p>
+    <h2>SEPARACIÓN Y REGRESO</h2>
+    <P>El 1 de agosto de 2001, Ariel Garfield Caldara, tecladista de la banda desde el año 1996, falleció en su domicilio, a causa de lo que se conoce como muerte súbita.5​ La banda, que tenía pautado para el 11 de agosto de 2001 una presentación en El Teatro, del barrio porteño de Colegiales, decidió realizar la misma en honor a Gárfield, aunque suspendió todo tipo de promoción y notas para dicho show. La presentación comenzó con el telón cerrado, la banda en silencio delante del público y palabras de Iván Noble agradeciendo al apoyo del público en este momento tan duro y difícil. La última presentación fue a fines de ese año en el Oeste, con Alejandro Sokol de Las Pelotas como invitado.</P>
+    <P>Durante el verano de 2002, Los Caballeros de la Quema anunciaron escuetamente a través de un texto en su sitio web, que habían decidido separarse.</P>
+    <P>La banda volvió en un único show el 23 de junio de 2017 en el Estadio Único de La Plata.</P>
+    <P>Iván Noble, junto con Pablo Guerra, Martín Méndez, Pato Castillo y Javier Cavo. Desde hace poco menos de un mes, Caballeros de la Quema volvió a existir como banda, a quince años de su separación. Por el momento, su corporización sucede sólo puertas adentro, en un estudio de Villa Ortúzar donde el grupo repasa intensamente la lista de temas para lo que será su único show, "El origen de esta reunión fue que al fin nos convencieron", dice Iván Noble a pocos días de subirse otra vez al escenario como la voz de Los Caballeros de la Quema. A más de quince años de su último show, la banda que dejó su marca en el rock nacional durante los 90 -del impacto underground de himnos barriales como "Carlito" a la explosión masiva de "Avanti morocha".</P>
+    <h2>MIEMBROS</h2>
+    <img src="img/caballeros3.jpg" class="fotoBanda3">
+    <h4>
+        <ul>
+            <li>Iván Noble / Voz</li>
+            <li>Javier Calvo / Batería</li>
+            <li>Martín Staffolaro / Saxo</li>
+            <li>Pablo Guerra / Guitarra</li>
+            <li>Martín Mendez / Guitarra</li>
+            <li>Patricio Castillo / Bajo</li>
+        </ul>
+    </h4>
+</div>
+
+
+<!--ABOUT-->
+
+<div class="container-fluid" id="about">
+    <div class="row bg-dark text-white1 p-5 text-center">
+        <div class="col-sm-6">
+            <i class="fab fa-napster fa-10x"></i>
+        </div>
+        <div class="col-sm-6">
+            <h3>Sobre nosotros</h3>
+            <p>Somos una web creada en el oeste del Gran Buenos Aires con el objetivo de ayudar a los músicos de poder explayar su arte en distintos proyectos.
+                En la actualidad, es difícil conseguir músicos que toquen determinados instrumentos, por eso, se creo este clasificado con el fin de ayudar a las bandas a encontrar la persona que les falta en su esquema y para que los músicos puedan elegir en qué tipo de banda o estilo de música hacer.
+                </p>
+                <p>Para más info contáctenos.</p>
+            
+        </div>
+    </div>
+    
+</div>
+<%- include ('partials/footer.html') %>
+
+<script>
+    const btnToggle = document.querySelector('.toggle-btn');
+
+btnToggle.addEventListener('click', function () {
+  console.log('clik');
+  document.getElementById('sidebar').classList.toggle('active');
+  console.log(document.getElementById('sidebar'))
+});
+</script>
+
+</body>
+
+</html>

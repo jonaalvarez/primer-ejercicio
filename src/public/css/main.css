@@ -1,0 +1,112 @@
+body{
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Spicy Rice', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.central .tituloBanda{
+    margin: 20px 0px 20px 380px;
+    color: navy;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.central{
+    margin: 10px 10px;
+}
+
+.central h1{
+    margin: 20px 0px 20px 380px;
+}
+
+.central .logoBanda{
+    float: left;
+    margin-right: 10px;
+}
+
+.central .fotoBanda{
+    float: right;
+    width: 650px;
+}
+
+.central .fotoBanda2{
+    float: left;
+    width: 180px;
+    margin-right: 10px;
+}
+
+.central .fotoBanda3{
+    float: right;
+    width: 352px;
+}
+
+#sidebar{
+    position: fixed;
+    z-index: 1;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active{
+    left: 0;
+}
+
+#sidebar ul li{
+    color: rgba(230, 230, 230, .9);
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    cursor: pointer;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn{
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #000;
+}
+
+.container-fluid p{
+    color: white;
+}
+
+.contenedor{
+    margin-left: 20px;
+}
+
+.contenedor img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contenedor p{
+    margin-left: 10px;
+}
