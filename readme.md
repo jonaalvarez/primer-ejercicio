@@ -1,4 +1,4 @@
-# Ejercicio en node
+# Ejercicio
 
 ## como correrlo?
 ```
